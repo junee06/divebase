@@ -3,8 +3,8 @@ from tqdm import tqdm
 
 RETRIES = 3
 DELAY = 1
-BATCH_SIZE = 10000
-RETRY_LIMIT = 500
+BATCH_SIZE = 5000
+RETRY_LIMIT = 1000
 API_URL = "https://mdl-pi.vercel.app/id/"
 PROGRESS_FILE = "progress.json"
 FAILED_LOG = "failed_slugs.log"
