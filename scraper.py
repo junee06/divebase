@@ -2,7 +2,7 @@ import os, json, time, requests
 from tqdm import tqdm
 
 RETRIES = 3
-DELAY = 2
+DELAY = 1
 BATCH_SIZE = 10000
 RETRY_LIMIT = 500
 API_URL = "https://mdl-pi.vercel.app/id/"
